@@ -42,3 +42,9 @@ Training;
 Testing;
     Loss - Sparce_categorical_crossentropy
     Optimizer - Adam
+
+## The repository contains:
+Breast_Cancer_Detection.ipynb   Google Colab notebook used to clean and process the data, create the model, test the model and save the model
+app.py      The flask app that loads the saved model and uses it to make predictions. Currently it uses 4 images from the dataset and doesn't accept other images.
+templates/  contains the html templates used by the flask app to render the pages.
+README.md   contains information about the repository
